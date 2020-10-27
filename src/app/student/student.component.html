@@ -1,3 +1,4 @@
-<div>
+<div #studentDetail>
   <div>id:{{student.id}}, name:{{student.name}}, age:{{student.age}}</div>
+  <button class="heightLight" #button (click)="studentDetail.style.backgroundColor = '#3CB371'; button.style.backgroundColor = '#3CB371'">height-light</button>
 </div>

@@ -1,15 +1,12 @@
-import {Component, Input, OnInit} from '@angular/core';
-import {Student} from "../student";
+import {Component, Input} from '@angular/core';
+import {Student} from '../student';
 
 @Component({
   selector: 'app-student',
   templateUrl: './student.component.html',
-  styleUrls: ['./student.component.sass']
+  styleUrls: ['./student.component.css']
 })
-export class StudentComponent implements OnInit{
+export class StudentComponent {
 
   @Input() student: Student;
-
-  ngOnInit(): void {
-  }
 }
