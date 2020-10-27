@@ -11,6 +11,11 @@ export class StudentsComponent implements OnInit{
   students: Student[];
 
   ngOnInit(): void {
-
+    this.students = [
+      {id: 1, name: 'xiao', age: 16},
+      {id: 2, name: 'zhao', age: 17},
+      {id: 3, name: 'wang', age: 18},
+      {id: 4, name: 'li', age: 19}
+    ];
   }
 }
